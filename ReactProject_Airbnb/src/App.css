@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;    
+}
+
+.header {
+    height: 10vh;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 5px;
+}
+.header--logo {
+    padding: 20px;
+}
+
+.main {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+.main--photo {
+    margin: auto;
+    margin-top: 50px;
+    height: 350px;
+    width: auto;
+}
+.main--title{
+    font-size: 30px;
+    padding: 10px 40px;
+}
+.main--parag{
+    font-size: 17px;
+    padding: 5px 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin: 30px;
+}
+.card > * {
+    margin: 5px;
+}
+.card--img--container {
+    position: relative;
+}
+.activity--info {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    border-radius: 5px;
+}
+.card--img {
+    height: 235px;
+    width: 200px;
+    border-radius: 20px;
+}
+.card--star--info {
+    display: flex;
+    margin-top: 10px;
+}
+.card--star--info > img {
+    margin-right: 5px;
+}
+
+.cards{
+    background-color: #E5E5E5;
+    display: flex;
+}
