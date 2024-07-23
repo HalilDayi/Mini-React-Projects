@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    background-color: blue;
+    height: 10vh;
+}
+.header > img{
+    height: 60px;
+    opacity: 0.7;
+    border-radius: 10px;
+    position: relative;
+    top: 1%;
+    left: 0.5%;
+}
+
+.footer{
+    background-color: blue;
+    height: 5vh;
+    text-align: center;
+}
+
+.footer > p{
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 10px;
+    color: white;
+
+}
+
+.footer span{
+    color: white;
+}
+
+.flex-enterance{
+    display: flex;
+}
+
+.introduction-section{
+    width: 40%;
+    margin-right: 10%;
+    padding-left: 5%;
+}
+
+.introduction-section > h1{
+    font-size: 50px;
+}
+
+.introduction-section  p{
+    font-size: 20px;
+    margin: 50px;
+}
+
+.introduction-section button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.introduction-section a{
+    color: blue;
+}
+.static-image-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.flex-image{
+    height: 240px;
+    width: 240px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+  /*.image-box {
+    position: relative;
+    width: 700px; 
+    height: 450px; 
+    overflow: hidden; 
+    margin: 50px auto; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }*/
+  
+ /* .ImageBox-images {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+  }*/
+  
+  .info-image-container{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+  }
+  .image-box{
+    position: relative;
+    width: 700px; 
+    height: 450px; 
+    overflow: hidden; 
+    margin: 50px auto; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .ImageBox-images{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+  }
+  .image--info{
+    width: 30%;
+    height: 87.5vh;
+    background-color: lightblue;
+    z-index: 1;
+  }
+
+  .image--info > h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .image--info > h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin-top: -25px;
+  }
+  .image--info > p{
+    font-size: 15xpx;
+    text-align: left;
+    padding: 3px;
+    font-family: 'Poppins', sans-serif;
+  }
