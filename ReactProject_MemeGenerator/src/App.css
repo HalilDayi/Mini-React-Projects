@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    height: 12vh;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.363);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin: 5px 10px;
+    margin-left: 30px;
+}
+.header--title{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.header--text{
+    color: #FFFFFF;
+    font-size: 15px;
+    position: absolute;
+    right: 3%;
+}
+
+.main--form{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 30%;
+    width: 150vh;
+    position: relative;
+    top: 50px;
+    left: 10%;
+    grid-column-gap: 10%;
+    grid-row-gap: 15%;
+    font-family:  'Poppins', sans-serif;
+}
+.main--form > input{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.main--form > button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    border-radius: 5px;
+    height: 50px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+.grid-item-f{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.grid-item-s{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.meme{
+    position: absolute;
+    top: 50%;
+}
+.meme--image{
+    left: 58%;
+    right: auto;
+    width: 600px;
+    height: 350px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    left: 65%;
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.return--container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
